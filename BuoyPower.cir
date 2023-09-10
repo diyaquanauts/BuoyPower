@@ -1,0 +1,33 @@
+.title KiCad schematic
+H1 MountingHole
+J4 GND +BATT Conn_01x02_Male
+H3 MountingHole
+H2 MountingHole
+J1 /REG_EN /PowerMonitor/VOUT GND1 GND1 +5V Pololu-3782
+J9 +5V GND1 VBUS GND Screw_Terminal_01x04
+J2 GND VBUS Conn_01x02_Male
+H4 MountingHole
+R15 +BATT /PowerTimer/INT 10k
+JP41 Net-_JP41-A_ /PowerTimer/32KHZ SolderJumper_2_Bridged
+JP42 Net-_JP42-A_ /PowerTimer/INT SolderJumper_2_Bridged
+BT2 +BATT GND Battery_Cell
+C11 VBUS GND 10uF
+C12 VBUS GND .1uf
+R13 /PowerTimer/SCL VBUS 10k
+R14 /PowerTimer/SCL VBUS 10k
+U8 Net-_JP41-A_ VBUS Net-_JP42-A_ unconnected-_U8-~{RST}_ GND GND GND GND GND GND GND GND GND +BATT /PowerTimer/SDA /PowerTimer/SCL DS3231M
+U9 unconnected-_U9-NC_ /PowerTimer/INT GND /PowerTimer/NINT +BATT 74LVC1GU04
+C13 GND +BATT .1uf
+C14 GND +BATT .1uf
+U10 /PowerTimer/RST /PowerTimer/BOUT /PowerTimer/BOUT GND GND /PowerTimer/AOUT Net-_U10-Pad6_ /PowerTimer/AOUT +BATT +BATT 74LVC2G02
+JP1 Net-_U10-Pad6_ /PowerTimer/NINT /PowerTimer/INT SolderJumper_3_Bridged12
+U11 Net-_U11-Pad1_ /PowerTimer/POWER_HOLD GND /REG_EN +BATT SN74AUP1G32
+C15 GND +BATT .1uf
+JP2 /PowerTimer/AOUT Net-_U11-Pad1_ /PowerTimer/BOUT SolderJumper_3_Bridged12
+R12 /PowerMonitor/VOUT Net-_U3-IN-_ 10
+R10 +BATT /PowerMonitor/VOUT 0.15
+R11 +BATT Net-_U3-IN+_ 10
+C1 GND VBUS 0.1uf
+C3 Net-_U3-IN-_ Net-_U3-IN+_ 100n
+U3 /PowerMonitor/A1 /PowerMonitor/A0 /PowerMonitor/SDA /PowerMonitor/SCL VBUS GND Net-_U3-IN-_ Net-_U3-IN+_ INA219AxD
+.end
