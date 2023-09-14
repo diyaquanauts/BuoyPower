@@ -24,10 +24,9 @@ jobs:
     # Install jq, if required
     - name: Install jq
       run: sudo apt-get install jq
-
     # Install tracespace CLI tool
     - name: Install tracespace
-      run: npm install -g tracespace
+      run: npm install -g @tracespace/cli 
 
     # Run your script
     - name: Run Script
