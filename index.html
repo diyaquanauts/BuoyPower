@@ -6,7 +6,7 @@
   <script>
     // Fetch and display the JSON content
     async function fetchAndDisplayJson() {
-      const response = await fetch('gerbers/svg_list.json');
+      const response = await fetch('./gerbers/svg_list.json');
       const data = await response.json();
       const listElement = document.getElementById('svgList');
       
