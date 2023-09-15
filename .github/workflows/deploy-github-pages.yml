@@ -16,7 +16,7 @@ jobs:
     - name: Read svg_list.json and Create HTML
       run: |
         echo '<html><head><title>SVG List</title></head><body><h1>SVG Files:</h1><ul>' > index.html
-        jq -r '.[] | "<li>" + .name + " - " + .description + "</li>"' gerbers/svg_list.json >> index.html
+        jq -r '.[] | "<li>" + .name + " - " + .description + "</li>"' ./gerbers/svg_list.json >> index.html
         echo '</ul></body></html>' >> index.html
 
     - name: Deploy to GitHub Pages
