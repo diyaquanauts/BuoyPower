@@ -3,25 +3,28 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - squash 
+      - main  # replace with your default branch if it's not 'main'
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Install jq for JSON parsing
-      run: sudo apt-get install jq
+    - name: Checkout code
+      uses: actions/checkout@v2
 
-    - name: Read svg_list.json and Create HTML
+    - name: Install jq
+      run: sudo apt-get install -y jq
+
+    - name: Generate index.html
       run: |
         echo '<html><head><title>SVG List</title></head><body><h1>SVG Files:</h1><ul>' > index.html
-        jq -r '.[] | "<li>" + .name + " - " + .description + "</li>"' ./gerbers/svg_list.json >> index.html
+        cat gerbers/svg_list.json | jq -r '.[] | "<li>" + .name + " - " + .description + "</li>"' >> index.html
         echo '</ul></body></html>' >> index.html
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./  # The directory where your index.html file is located
+        publish_dir: ./  # this will publish all files in the current directory to GitHub Pages
 
