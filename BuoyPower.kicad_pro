@@ -438,7 +438,7 @@
       "netlist": "",
       "specctra_dsn": "",
       "step": "../../Downloads/BuoyPower-Shield-2.step",
-      "vrml": ""
+      "vrml": "../../Downloads/BuoyPower-NoPi.wrl"
     },
     "page_layout_descr_file": ""
   },
