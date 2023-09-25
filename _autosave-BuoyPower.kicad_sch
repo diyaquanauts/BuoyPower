@@ -2145,6 +2145,12 @@
     (property "MANUFACTURER" "Texas Instruments" (id 16) (at 111.76 172.72 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
+    (property "Mfr 1" "TMP117AIDRVT" (id 17) (at 111.76 172.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfr 1 PN" "Texas Instruments" (id 18) (at 111.76 172.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 4550648f-9519-474c-9ede-0678d7a12561))
     (pin "2" (uuid a94873d0-de0c-42f2-ae8c-3af0c5af6e68))
     (pin "3" (uuid 60e56cc1-793d-4834-9fad-ab760b1df256))
@@ -2595,9 +2601,6 @@
     (path "/13343ce8-e8c2-40ca-9485-bb1a5dcd691d"
       (reference "#PWR0104") (unit 1) (value "VBUS") (footprint "")
     )
-    (path "/c400b7ca-4a96-4108-9b9c-a6711a29ec1d"
-      (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
-    )
     (path "/de169543-5d83-41be-9f62-27d902158e7a"
       (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
     )
@@ -2643,12 +2646,6 @@
     (path "/1f46e0b0-8cf7-45e0-839e-129c08e67e35/f51e4d31-9573-41ba-83cc-77a97657d407"
       (reference "#PWR0119") (unit 1) (value "VBUS") (footprint "")
     )
-    (path "/1cb871b0-a81b-4f2c-aada-0e6748e94c8a"
-      (reference "#PWR0120") (unit 1) (value "VBUS") (footprint "")
-    )
-    (path "/461feab3-fdbc-4f9a-8b36-1ca162198b11"
-      (reference "#PWR0120") (unit 1) (value "VBUS") (footprint "")
-    )
     (path "/f81f13d3-aba1-4a34-8534-0b62464bd47f"
       (reference "#PWR0120") (unit 1) (value "VBUS") (footprint "")
     )
@@ -2690,6 +2687,15 @@
     )
     (path "/0b393cd2-19d9-48f9-807f-5b6171b04629"
       (reference "#PWR0133") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/c400b7ca-4a96-4108-9b9c-a6711a29ec1d"
+      (reference "#PWR0134") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/1cb871b0-a81b-4f2c-aada-0e6748e94c8a"
+      (reference "#PWR0135") (unit 1) (value "VBUS") (footprint "")
+    )
+    (path "/461feab3-fdbc-4f9a-8b36-1ca162198b11"
+      (reference "#PWR0136") (unit 1) (value "VBUS") (footprint "")
     )
     (path "/6d14d4f8-5eac-41fa-a6a0-78893e5397f9/c8ca51b5-6dd1-4daa-b0d5-f87bbc185ed8"
       (reference "BT2") (unit 1) (value "Battery_Cell") (footprint "Battery:BatteryHolder_Keystone_3002_1x2032")

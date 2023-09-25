@@ -1,0 +1,1602 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/brett/Documents/BuoyPower/BuoyPower.kicad_sch</source>
+    <date>Monday, September 25, 2023 at 01:03:01 AM</date>
+    <tool>Eeschema (6.99.0-2504-g6a9c6e8599)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>BuoyPower.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/PowerTimer/" tstamps="/6d14d4f8-5eac-41fa-a6a0-78893e5397f9/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>PowerTimer.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/PowerMonitor/" tstamps="/1f46e0b0-8cf7-45e0-839e-129c08e67e35/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>PowerMonitor.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Mfr 1">YAGEO</field>
+        <field name="Mfr 1 PN">CC0805KRX7R9BB104</field>
+        <field name="Supplier 1 Link">https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R9BB104/302874</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Mfr 1" value="YAGEO"/>
+      <property name="Mfr 1 PN" value="CC0805KRX7R9BB104"/>
+      <property name="Supplier 1 Link" value="https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R9BB104/302874"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: BuoyPower.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c1bae0c8-57d3-4fa3-bf74-ac47009cc565</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <fields>
+        <field name="Mfr 1">NA</field>
+        <field name="Mfr 1 PN">NA</field>
+        <field name="Supplier 1 Link">NA</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Mfr 1" value="NA"/>
+      <property name="Mfr 1 PN" value="NA"/>
+      <property name="Supplier 1 Link" value="NA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: BuoyPower.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c7751b4e-3bd5-4aec-8ed5-82b267899a18</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <fields>
+        <field name="Mfr 1">NA</field>
+        <field name="Mfr 1 PN">NA</field>
+        <field name="Supplier 1 Link">NA</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Mfr 1" value="NA"/>
+      <property name="Mfr 1 PN" value="NA"/>
+      <property name="Supplier 1 Link" value="NA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: BuoyPower.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7846ba02-7624-4875-965a-46c7c4928087</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Pololu-3782</value>
+      <footprint>ADAFRUIT_QT_PY:Pololu-3782</footprint>
+      <fields>
+        <field name="Mfr 1">Pololu</field>
+        <field name="Mfr 1 PN">3782</field>
+        <field name="Supplier 1 Link">https://www.pololu.com/product/3782</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x05_Male" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Mfr 1" value="Pololu"/>
+      <property name="Mfr 1 PN" value="3782"/>
+      <property name="Supplier 1 Link" value="https://www.pololu.com/product/3782"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: BuoyPower.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>977d7da6-decd-4a73-964a-b42ac7be264c</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x05</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Mfr 1">NA</field>
+        <field name="Mfr 1 PN">NA</field>
+        <field name="Supplier 1 Link">NA</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Mfr 1" value="NA"/>
+      <property name="Mfr 1 PN" value="NA"/>
+      <property name="Supplier 1 Link" value="NA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: BuoyPower.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1a36091a-b8c9-4f8d-943a-718b8570fead</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal</footprint>
+      <fields>
+        <field name="Mfr 1">JST Sales America Inc.</field>
+        <field name="Mfr 1 PN">S2B-XH-A</field>
+        <field name="Supplier 1 Link">https://www.digikey.com/en/products/detail/jst-sales-america-inc/S2B-XH-A/1651055</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Mfr 1" value="JST Sales America Inc."/>
+      <property name="Mfr 1 PN" value="S2B-XH-A"/>
+      <property name="Supplier 1 Link" value="https://www.digikey.com/en/products/detail/jst-sales-america-inc/S2B-XH-A/1651055"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: BuoyPower.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e31c82cc-850a-40db-8dfc-ce9bd8f797e1</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x03</value>
+      <footprint>Connector_JST:JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal</footprint>
+      <fields>
+        <field name="Mfr 1">JST Sales America Inc.</field>
+        <field name="Mfr 1 PN">S3B-XH-A</field>
+        <field name="Supplier 1 Link">https://www.digikey.com/en/products/detail/jst-sales-america-inc/S3B-XH-A/1651048</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Mfr 1" value="JST Sales America Inc."/>
+      <property name="Mfr 1 PN" value="S3B-XH-A"/>
+      <property name="Supplier 1 Link" value="https://www.digikey.com/en/products/detail/jst-sales-america-inc/S3B-XH-A/1651048"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: BuoyPower.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b972bc2-6b64-46b2-8165-f70881fda64e</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x04</value>
+      <footprint>Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal</footprint>
+      <fields>
+        <field name="Mfr 1">JST Sales America Inc.</field>
+        <field name="Mfr 1 PN">SM04B-SRSS-TB</field>
+        <field name="Supplier 1 Link">C160404</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Mfr 1" value="JST Sales America Inc."/>
+      <property name="Mfr 1 PN" value="SM04B-SRSS-TB"/>
+      <property name="Supplier 1 Link" value="C160404"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: BuoyPower.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c4ffcd80-fb18-47b8-bea0-da88fae7c2ec</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal</footprint>
+      <fields>
+        <field name="Mfr 1">JST Sales America Inc.</field>
+        <field name="Mfr 1 PN">S2B-XH-A</field>
+        <field name="Supplier 1 Link">https://www.digikey.com/en/products/detail/jst-sales-america-inc/S2B-XH-A/1651055</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Mfr 1" value="JST Sales America Inc."/>
+      <property name="Mfr 1 PN" value="S2B-XH-A"/>
+      <property name="Supplier 1 Link" value="https://www.digikey.com/en/products/detail/jst-sales-america-inc/S2B-XH-A/1651055"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: BuoyPower.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e2cecd78-671b-45c2-9d49-a47f00bc6e0e</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>Conn_01x04</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Mfr 1">JST Sales America Inc.</field>
+        <field name="Mfr 1 PN">S4B-XH-SM4-TB</field>
+        <field name="Supplier 1 Link">https://www.digikey.com/en/products/detail/jst-sales-america-inc/S4B-XH-SM4-TB/1651064</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Mfr 1" value="JST Sales America Inc."/>
+      <property name="Mfr 1 PN" value="S4B-XH-SM4-TB"/>
+      <property name="Supplier 1 Link" value="https://www.digikey.com/en/products/detail/jst-sales-america-inc/S4B-XH-SM4-TB/1651064"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: BuoyPower.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>42ea3d0f-6ebf-4e3a-96f8-8f62f8e919ba</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>Conn_02x20_Odd_Even</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Mfr 1">Oupiin</field>
+        <field name="Mfr 1 PN">2047-2X20G00S3U</field>
+        <field name="Supplier 1 Link">https://www.digikey.com/en/products/detail/oupiin/2047-2X20G00S3U/13251053</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x20_Odd_Even" description="Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Mfr 1" value="Oupiin"/>
+      <property name="Mfr 1 PN" value="2047-2X20G00S3U"/>
+      <property name="Supplier 1 Link" value="https://www.digikey.com/en/products/detail/oupiin/2047-2X20G00S3U/13251053"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: BuoyPower.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>565ff9dd-19b2-464c-8052-5673e7f55056</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Mfr 1">Stackpole Electronics Inc</field>
+        <field name="Mfr 1 PN">RNCP0805FTD10K0</field>
+        <field name="Supplier 1 Link">https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0805FTD10K0/2240262</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Mfr 1" value="Stackpole Electronics Inc"/>
+      <property name="Mfr 1 PN" value="RNCP0805FTD10K0"/>
+      <property name="Supplier 1 Link" value="https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0805FTD10K0/2240262"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: BuoyPower.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1688e48a-a826-425f-b8ee-e3d4bd575b49</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>TMP117AIDRVT</value>
+      <footprint>TMP117AIDRVT:SON65P200X200X80-7N</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/TMP117AIDRVT/Texas+Instruments/view-part/?ref=eda</field>
+        <field name="Description">
+0.1°C digital temperature sensor, 48-bit EEPROM, PT100/PT1000 RTD replacement
+</field>
+        <field name="MANUFACTURER">Texas Instruments</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.8 mm</field>
+        <field name="MF">Texas Instruments</field>
+        <field name="MP">TMP117AIDRVT</field>
+        <field name="Mfr 1">TMP117AIDRVT</field>
+        <field name="Mfr 1 PN">Texas Instruments</field>
+        <field name="PARTREV">B</field>
+        <field name="Package">WSON-6 Texas Instruments</field>
+        <field name="Price">None</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4422655&amp;manufacturer=Texas Instruments&amp;part_name=TMP117AIDRVT&amp;search_term=tmp117</field>
+        <field name="STANDARD">IPC 7351B</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/TMP117AIDRVT/Texas+Instruments/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="TMP117AIDRVT" part="TMP117AIDRVT" description=""/>
+      <property name="MF" value="Texas Instruments"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="0.8 mm"/>
+      <property name="Package" value="WSON-6 Texas Instruments"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/TMP117AIDRVT/Texas+Instruments/view-part/?ref=eda"/>
+      <property name="STANDARD" value="IPC 7351B"/>
+      <property name="PARTREV" value="B"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/TMP117AIDRVT/Texas+Instruments/view-part/?ref=snap"/>
+      <property name="MP" value="TMP117AIDRVT"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4422655&amp;manufacturer=Texas Instruments&amp;part_name=TMP117AIDRVT&amp;search_term=tmp117"/>
+      <property name="Description" value="&#xA;0.1°C digital temperature sensor, 48-bit EEPROM, PT100/PT1000 RTD replacement&#xA;"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="Texas Instruments"/>
+      <property name="Mfr 1" value="TMP117AIDRVT"/>
+      <property name="Mfr 1 PN" value="Texas Instruments"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: BuoyPower.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>97edeb96-818a-44de-8a3f-249434b3bfba</tstamps>
+    </comp>
+    <comp ref="BT2">
+      <value>Battery_Cell</value>
+      <footprint>Battery:BatteryHolder_Keystone_3002_1x2032</footprint>
+      <fields>
+        <field name="Mfr 1">Keystone Electronics</field>
+        <field name="Mfr 1 PN">3002TR</field>
+        <field name="Supplier 1 Link">https://www.digikey.com/en/products/detail/keystone-electronics/3002TR/306867</field>
+      </fields>
+      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <property name="Mfr 1" value="Keystone Electronics"/>
+      <property name="Mfr 1 PN" value="3002TR"/>
+      <property name="Supplier 1 Link" value="https://www.digikey.com/en/products/detail/keystone-electronics/3002TR/306867"/>
+      <property name="Sheetname" value="PowerTimer"/>
+      <property name="Sheetfile" value="File: PowerTimer.kicad_sch"/>
+      <property name="ki_description" value="Single-cell battery"/>
+      <property name="ki_keywords" value="battery cell"/>
+      <sheetpath names="/PowerTimer/" tstamps="/6d14d4f8-5eac-41fa-a6a0-78893e5397f9/"/>
+      <tstamps>c8ca51b5-6dd1-4daa-b0d5-f87bbc185ed8</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Mfr 1">Samsung Electro-Mechanics</field>
+        <field name="Mfr 1 PN">CL21A106KOCLRNC</field>
+        <field name="Supplier 1 Link">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A106KOCLRNC/3888057</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Mfr 1" value="Samsung Electro-Mechanics"/>
+      <property name="Mfr 1 PN" value="CL21A106KOCLRNC"/>
+      <property name="Supplier 1 Link" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A106KOCLRNC/3888057"/>
+      <property name="Sheetname" value="PowerTimer"/>
+      <property name="Sheetfile" value="File: PowerTimer.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/PowerTimer/" tstamps="/6d14d4f8-5eac-41fa-a6a0-78893e5397f9/"/>
+      <tstamps>3ea9b3db-3996-45e4-a441-b028aa5c2a05</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Mfr 1">YAGEO</field>
+        <field name="Mfr 1 PN">CC0805KRX7R9BB104</field>
+        <field name="Supplier 1 Link">https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R9BB104/302874</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Mfr 1" value="YAGEO"/>
+      <property name="Mfr 1 PN" value="CC0805KRX7R9BB104"/>
+      <property name="Supplier 1 Link" value="https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R9BB104/302874"/>
+      <property name="Sheetname" value="PowerTimer"/>
+      <property name="Sheetfile" value="File: PowerTimer.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/PowerTimer/" tstamps="/6d14d4f8-5eac-41fa-a6a0-78893e5397f9/"/>
+      <tstamps>246e7ef5-8218-4aba-bca1-4eb18fb4e63e</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Mfr 1">YAGEO</field>
+        <field name="Mfr 1 PN">CC0805KRX7R9BB104</field>
+        <field name="Supplier 1 Link">https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R9BB104/302874</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Mfr 1" value="YAGEO"/>
+      <property name="Mfr 1 PN" value="CC0805KRX7R9BB104"/>
+      <property name="Supplier 1 Link" value="https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R9BB104/302874"/>
+      <property name="Sheetname" value="PowerTimer"/>
+      <property name="Sheetfile" value="File: PowerTimer.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/PowerTimer/" tstamps="/6d14d4f8-5eac-41fa-a6a0-78893e5397f9/"/>
+      <tstamps>fa9bc9f0-b71c-48af-887e-7b3612db01a8</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Mfr 1">YAGEO</field>
+        <field name="Mfr 1 PN">CC0805KRX7R9BB104</field>
+        <field name="Supplier 1 Link">https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R9BB104/302874</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Mfr 1" value="YAGEO"/>
+      <property name="Mfr 1 PN" value="CC0805KRX7R9BB104"/>
+      <property name="Supplier 1 Link" value="https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R9BB104/302874"/>
+      <property name="Sheetname" value="PowerTimer"/>
+      <property name="Sheetfile" value="File: PowerTimer.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/PowerTimer/" tstamps="/6d14d4f8-5eac-41fa-a6a0-78893e5397f9/"/>
+      <tstamps>43c0f45e-743b-4654-b773-cb77a8780183</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>BAT20J</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <fields>
+        <field name="Mfr 1">STMicroelectronics</field>
+        <field name="Mfr 1 PN">BAT20JFILM</field>
+        <field name="Supplier 1 Link">https://www.digikey.com/en/products/detail/stmicroelectronics/BAT20JFILM/669137?s=N4IgTCBcDaIEIEEAqYAMApEBdAvkA</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="Mfr 1" value="STMicroelectronics"/>
+      <property name="Mfr 1 PN" value="BAT20JFILM"/>
+      <property name="Supplier 1 Link" value="https://www.digikey.com/en/products/detail/stmicroelectronics/BAT20JFILM/669137?s=N4IgTCBcDaIEIEEAqYAMApEBdAvkA"/>
+      <property name="Sheetname" value="PowerTimer"/>
+      <property name="Sheetfile" value="File: PowerTimer.kicad_sch"/>
+      <property name="ki_description" value="Schottky diode"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/PowerTimer/" tstamps="/6d14d4f8-5eac-41fa-a6a0-78893e5397f9/"/>
+      <tstamps>cc3fc192-b23a-4a58-8afd-1698f0c2083a</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>BAT20J</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <fields>
+        <field name="Mfr 1">STMicroelectronics</field>
+        <field name="Mfr 1 PN">BAT20JFILM</field>
+        <field name="Supplier 1 Link">https://www.digikey.com/en/products/detail/stmicroelectronics/BAT20JFILM/669137?s=N4IgTCBcDaIEIEEAqYAMApEBdAvkA</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="Mfr 1" value="STMicroelectronics"/>
+      <property name="Mfr 1 PN" value="BAT20JFILM"/>
+      <property name="Supplier 1 Link" value="https://www.digikey.com/en/products/detail/stmicroelectronics/BAT20JFILM/669137?s=N4IgTCBcDaIEIEEAqYAMApEBdAvkA"/>
+      <property name="Sheetname" value="PowerTimer"/>
+      <property name="Sheetfile" value="File: PowerTimer.kicad_sch"/>
+      <property name="ki_description" value="Schottky diode"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/PowerTimer/" tstamps="/6d14d4f8-5eac-41fa-a6a0-78893e5397f9/"/>
+      <tstamps>2a5942fd-2ace-43a7-b607-b428e0bfb1bf</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <fields>
+        <field name="Mfr 1">Everlight Elec </field>
+        <field name="Mfr 1 PN">17-21SURC/S530-A3/4T</field>
+        <field name="Supplier 1 Link">C2943978</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Mfr 1" value="Everlight Elec "/>
+      <property name="Mfr 1 PN" value="17-21SURC/S530-A3/4T"/>
+      <property name="Supplier 1 Link" value="C2943978"/>
+      <property name="Sheetname" value="PowerTimer"/>
+      <property name="Sheetfile" value="File: PowerTimer.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/PowerTimer/" tstamps="/6d14d4f8-5eac-41fa-a6a0-78893e5397f9/"/>
+      <tstamps>49b04c54-f720-4cbd-a349-c52ce411c120</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Mfr 1">NA</field>
+        <field name="Mfr 1 PN">NA</field>
+        <field name="Supplier 1 Link">NA</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Mfr 1" value="NA"/>
+      <property name="Mfr 1 PN" value="NA"/>
+      <property name="Supplier 1 Link" value="NA"/>
+      <property name="Sheetname" value="PowerTimer"/>
+      <property name="Sheetfile" value="File: PowerTimer.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/PowerTimer/" tstamps="/6d14d4f8-5eac-41fa-a6a0-78893e5397f9/"/>
+      <tstamps>44f4c03f-4aac-4bae-abae-4ce78adfe400</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>SolderJumper_2_Bridged</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm</footprint>
+      <fields>
+        <field name="Mfr 1">NA</field>
+        <field name="Mfr 1 PN">NA</field>
+        <field name="Supplier 1 Link">NA</field>
+      </fields>
+      <libsource lib="Jumper" part="SolderJumper_2_Bridged" description="Solder Jumper, 2-pole, closed/bridged"/>
+      <property name="Mfr 1" value="NA"/>
+      <property name="Mfr 1 PN" value="NA"/>
+      <property name="Supplier 1 Link" value="NA"/>
+      <property name="Sheetname" value="PowerTimer"/>
+      <property name="Sheetfile" value="File: PowerTimer.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 2-pole, closed/bridged"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <sheetpath names="/PowerTimer/" tstamps="/6d14d4f8-5eac-41fa-a6a0-78893e5397f9/"/>
+      <tstamps>d159ea81-4352-4a44-a844-6edbf8212b39</tstamps>
+    </comp>
+    <comp ref="JP3">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm</footprint>
+      <fields>
+        <field name="Mfr 1">NA</field>
+        <field name="Mfr 1 PN">NA</field>
+        <field name="Supplier 1 Link">NA</field>
+      </fields>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Mfr 1" value="NA"/>
+      <property name="Mfr 1 PN" value="NA"/>
+      <property name="Supplier 1 Link" value="NA"/>
+      <property name="Sheetname" value="PowerTimer"/>
+      <property name="Sheetfile" value="File: PowerTimer.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 2-pole, open"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <sheetpath names="/PowerTimer/" tstamps="/6d14d4f8-5eac-41fa-a6a0-78893e5397f9/"/>
+      <tstamps>a9155a6c-33cc-437d-9ffe-599ee26aecee</tstamps>
+    </comp>
+    <comp ref="JP4">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm</footprint>
+      <fields>
+        <field name="Mfr 1">NA</field>
+        <field name="Mfr 1 PN">NA</field>
+        <field name="Supplier 1 Link">NA</field>
+      </fields>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Mfr 1" value="NA"/>
+      <property name="Mfr 1 PN" value="NA"/>
+      <property name="Supplier 1 Link" value="NA"/>
+      <property name="Sheetname" value="PowerTimer"/>
+      <property name="Sheetfile" value="File: PowerTimer.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 2-pole, open"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <sheetpath names="/PowerTimer/" tstamps="/6d14d4f8-5eac-41fa-a6a0-78893e5397f9/"/>
+      <tstamps>d1b51f8b-3173-4442-9590-0cee853da6d5</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>IRLML2502</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.infineon.com/dgdl/irlml0030pbf.pdf?fileId=5546d462533600a401535664773825df</datasheet>
+      <fields>
+        <field name="Mfr 1">UMW(Youtai Semiconductor Co., Ltd.)</field>
+        <field name="Mfr 1 PN">IRLML2502</field>
+        <field name="Supplier 1 Link">C347503</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="IRLML0030" description="5.3A Id, 30V Vds, 27mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"/>
+      <property name="Mfr 1" value="UMW(Youtai Semiconductor Co., Ltd.)"/>
+      <property name="Mfr 1 PN" value="IRLML2502"/>
+      <property name="Supplier 1 Link" value="C347503"/>
+      <property name="Sheetname" value="PowerTimer"/>
+      <property name="Sheetfile" value="File: PowerTimer.kicad_sch"/>
+      <property name="ki_description" value="5.3A Id, 30V Vds, 27mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"/>
+      <property name="ki_keywords" value="N-Channel HEXFET MOSFET Logic-Level"/>
+      <sheetpath names="/PowerTimer/" tstamps="/6d14d4f8-5eac-41fa-a6a0-78893e5397f9/"/>
+      <tstamps>f0770bce-6d76-4139-a27d-558b640d7bd1</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>150</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Mfr 1">Viking Tech</field>
+        <field name="Mfr 1 PN">AR05DTBW1500</field>
+        <field name="Supplier 1 Link">C2984396</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Mfr 1" value="Viking Tech"/>
+      <property name="Mfr 1 PN" value="AR05DTBW1500"/>
+      <property name="Supplier 1 Link" value="C2984396"/>
+      <property name="Sheetname" value="PowerTimer"/>
+      <property name="Sheetfile" value="File: PowerTimer.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/PowerTimer/" tstamps="/6d14d4f8-5eac-41fa-a6a0-78893e5397f9/"/>
+      <tstamps>bb9a05a9-3687-4ddb-9fcf-6fda5dee7c9f</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Mfr 1">Stackpole Electronics Inc</field>
+        <field name="Mfr 1 PN">RNCP0805FTD10K0</field>
+        <field name="Supplier 1 Link">https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0805FTD10K0/2240262</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Mfr 1" value="Stackpole Electronics Inc"/>
+      <property name="Mfr 1 PN" value="RNCP0805FTD10K0"/>
+      <property name="Supplier 1 Link" value="https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0805FTD10K0/2240262"/>
+      <property name="Sheetname" value="PowerTimer"/>
+      <property name="Sheetfile" value="File: PowerTimer.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/PowerTimer/" tstamps="/6d14d4f8-5eac-41fa-a6a0-78893e5397f9/"/>
+      <tstamps>6e36a2ab-1d14-459c-ad50-0810975e09d6</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Mfr 1">Stackpole Electronics Inc</field>
+        <field name="Mfr 1 PN">RNCP0805FTD10K0</field>
+        <field name="Supplier 1 Link">https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0805FTD10K0/2240262</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Mfr 1" value="Stackpole Electronics Inc"/>
+      <property name="Mfr 1 PN" value="RNCP0805FTD10K0"/>
+      <property name="Supplier 1 Link" value="https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0805FTD10K0/2240262"/>
+      <property name="Sheetname" value="PowerTimer"/>
+      <property name="Sheetfile" value="File: PowerTimer.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/PowerTimer/" tstamps="/6d14d4f8-5eac-41fa-a6a0-78893e5397f9/"/>
+      <tstamps>426b3a62-08eb-4908-8021-2df91f3a95f5</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>470k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Mfr 1">Stackpole Electronics Inc</field>
+        <field name="Mfr 1 PN">RMCF0805JT470Kf</field>
+        <field name="Supplier 1 Link">https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805JT470K/1757857</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Mfr 1" value="Stackpole Electronics Inc"/>
+      <property name="Mfr 1 PN" value="RMCF0805JT470Kf"/>
+      <property name="Supplier 1 Link" value="https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805JT470K/1757857"/>
+      <property name="Sheetname" value="PowerTimer"/>
+      <property name="Sheetfile" value="File: PowerTimer.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/PowerTimer/" tstamps="/6d14d4f8-5eac-41fa-a6a0-78893e5397f9/"/>
+      <tstamps>ff69277b-2a20-466c-9a72-28346dff0308</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push_DPDT</value>
+      <footprint>JS202011SCQN:SW_JS202011SCQN</footprint>
+      <fields>
+        <field name="Mfr 1">C&amp;K</field>
+        <field name="Mfr 1 PN">JS202011SCQN</field>
+        <field name="Supplier 1 Link">C221666</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push_DPDT" description="Momentary Switch, dual pole double throw"/>
+      <property name="Mfr 1" value="C&amp;K"/>
+      <property name="Mfr 1 PN" value="JS202011SCQN"/>
+      <property name="Supplier 1 Link" value="C221666"/>
+      <property name="Sheetname" value="PowerTimer"/>
+      <property name="Sheetfile" value="File: PowerTimer.kicad_sch"/>
+      <property name="ki_description" value="Momentary Switch, dual pole double throw"/>
+      <property name="ki_keywords" value="switch dual-pole double-throw spdt ON-ON"/>
+      <sheetpath names="/PowerTimer/" tstamps="/6d14d4f8-5eac-41fa-a6a0-78893e5397f9/"/>
+      <tstamps>cbe483ca-dec0-422d-a076-ed38435eba59</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>74AHC1G02</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5_HandSoldering</footprint>
+      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
+      <fields>
+        <field name="Mfr 1">Diodes Incorporated</field>
+        <field name="Mfr 1 PN">74AHC1G02W5-7</field>
+        <field name="Supplier 1 Link">C842262</field>
+      </fields>
+      <libsource lib="74xGxx" part="74AUC1G02" description="Single NOR Gate, Low-Voltage CMOS"/>
+      <property name="Mfr 1" value="Diodes Incorporated"/>
+      <property name="Mfr 1 PN" value="74AHC1G02W5-7"/>
+      <property name="Supplier 1 Link" value="C842262"/>
+      <property name="Sheetname" value="PowerTimer"/>
+      <property name="Sheetfile" value="File: PowerTimer.kicad_sch"/>
+      <property name="ki_description" value="Single NOR Gate, Low-Voltage CMOS"/>
+      <property name="ki_keywords" value="Single Gate NOR LVC CMOS"/>
+      <sheetpath names="/PowerTimer/" tstamps="/6d14d4f8-5eac-41fa-a6a0-78893e5397f9/"/>
+      <tstamps>2d32bb0e-a119-4d78-b045-6daa7dc86a20</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>DS3231M</value>
+      <footprint>Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm</footprint>
+      <datasheet>http://datasheets.maximintegrated.com/en/ds/DS3231.pdf</datasheet>
+      <fields>
+        <field name="Mfr 1">Analog Devices Inc./Maxim Integrated</field>
+        <field name="Mfr 1 PN">DS3231M+</field>
+        <field name="Supplier 1 Link">https://www.digikey.com/en/products/detail/analog-devices-inc-maxim-integrated/DS3231M/2402420</field>
+      </fields>
+      <libsource lib="Timer_RTC" part="DS3231M" description="Extremely Accurate I2C-Integrated RTC/TCXO/Crystal SOIC-16"/>
+      <property name="Mfr 1" value="Analog Devices Inc./Maxim Integrated"/>
+      <property name="Mfr 1 PN" value="DS3231M+"/>
+      <property name="Supplier 1 Link" value="https://www.digikey.com/en/products/detail/analog-devices-inc-maxim-integrated/DS3231M/2402420"/>
+      <property name="Sheetname" value="PowerTimer"/>
+      <property name="Sheetfile" value="File: PowerTimer.kicad_sch"/>
+      <property name="ki_description" value="Extremely Accurate I2C-Integrated RTC/TCXO/Crystal SOIC-16"/>
+      <property name="ki_keywords" value="RTC TCXO Realtime Time Clock Crystal Oscillator I2C"/>
+      <sheetpath names="/PowerTimer/" tstamps="/6d14d4f8-5eac-41fa-a6a0-78893e5397f9/"/>
+      <tstamps>850bec81-dc8b-4b4d-bbe8-8a6af940e621</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>74AHC1GU04</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5_HandSoldering</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn74lvc1gu04.pdf</datasheet>
+      <fields>
+        <field name="Mfr 1">Texas Instruments</field>
+        <field name="Mfr 1 PN">SN74AHC1GU04DBVR</field>
+        <field name="Supplier 1 Link">https://www.digikey.com/en/products/detail/texas-instruments/SN74AHC1GU04DBVR/276739</field>
+      </fields>
+      <libsource lib="74xGxx" part="74LVC1GU04DRL" description="Single Inverter Gate, SOT-553"/>
+      <property name="Mfr 1" value="Texas Instruments"/>
+      <property name="Mfr 1 PN" value="SN74AHC1GU04DBVR"/>
+      <property name="Supplier 1 Link" value="https://www.digikey.com/en/products/detail/texas-instruments/SN74AHC1GU04DBVR/276739"/>
+      <property name="Sheetname" value="PowerTimer"/>
+      <property name="Sheetfile" value="File: PowerTimer.kicad_sch"/>
+      <property name="ki_description" value="Single Inverter Gate, SOT-553"/>
+      <property name="ki_keywords" value="inverter cmos"/>
+      <sheetpath names="/PowerTimer/" tstamps="/6d14d4f8-5eac-41fa-a6a0-78893e5397f9/"/>
+      <tstamps>c30c20f4-8920-41b1-b13c-eeef43d579c5</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Mfr 1">YAGEO</field>
+        <field name="Mfr 1 PN">CC0805KRX7R9BB104</field>
+        <field name="Supplier 1 Link">https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R9BB104/302874</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Mfr 1" value="YAGEO"/>
+      <property name="Mfr 1 PN" value="CC0805KRX7R9BB104"/>
+      <property name="Supplier 1 Link" value="https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R9BB104/302874"/>
+      <property name="Sheetname" value="PowerMonitor"/>
+      <property name="Sheetfile" value="File: PowerMonitor.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/PowerMonitor/" tstamps="/1f46e0b0-8cf7-45e0-839e-129c08e67e35/"/>
+      <tstamps>e12eb90a-7987-4d52-8b11-92d656f702bb</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Mfr 1">YAGEO</field>
+        <field name="Mfr 1 PN">CC0805KRX7R9BB104</field>
+        <field name="Supplier 1 Link">https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R9BB104/302874</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Mfr 1" value="YAGEO"/>
+      <property name="Mfr 1 PN" value="CC0805KRX7R9BB104"/>
+      <property name="Supplier 1 Link" value="https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R9BB104/302874"/>
+      <property name="Sheetname" value="PowerMonitor"/>
+      <property name="Sheetfile" value="File: PowerMonitor.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/PowerMonitor/" tstamps="/1f46e0b0-8cf7-45e0-839e-129c08e67e35/"/>
+      <tstamps>5a0ad1a8-ab43-4b24-abed-94173615dc6b</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>0.15</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</footprint>
+      <fields>
+        <field name="Mfr 1">Stackpole Electronics Inc</field>
+        <field name="Mfr 1 PN">RMCF2512FTR150</field>
+        <field name="Supplier 1 Link">https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF2512FTR150/1716773?s=N4IgTCBcDaIBwFYAMBaASgWQMIDEwIEYwcAVNA5LElAOQBEQBdAXyA</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Mfr 1" value="Stackpole Electronics Inc"/>
+      <property name="Mfr 1 PN" value="RMCF2512FTR150"/>
+      <property name="Supplier 1 Link" value="https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF2512FTR150/1716773?s=N4IgTCBcDaIBwFYAMBaASgWQMIDEwIEYwcAVNA5LElAOQBEQBdAXyA"/>
+      <property name="Sheetname" value="PowerMonitor"/>
+      <property name="Sheetfile" value="File: PowerMonitor.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/PowerMonitor/" tstamps="/1f46e0b0-8cf7-45e0-839e-129c08e67e35/"/>
+      <tstamps>dcb1a250-efb0-4731-a715-6ad510706b87</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>10</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Mfr 1">YAGEO</field>
+        <field name="Mfr 1 PN">RC0805FR-0710RL</field>
+        <field name="Supplier 1 Link">https://www.digikey.com/en/products/detail/yageo/RC0805FR-0710RL/727534</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Mfr 1" value="YAGEO"/>
+      <property name="Mfr 1 PN" value="RC0805FR-0710RL"/>
+      <property name="Supplier 1 Link" value="https://www.digikey.com/en/products/detail/yageo/RC0805FR-0710RL/727534"/>
+      <property name="Sheetname" value="PowerMonitor"/>
+      <property name="Sheetfile" value="File: PowerMonitor.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/PowerMonitor/" tstamps="/1f46e0b0-8cf7-45e0-839e-129c08e67e35/"/>
+      <tstamps>ab17387f-13c6-4ea3-a76f-2225dfdfce92</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>10</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Mfr 1">YAGEO</field>
+        <field name="Mfr 1 PN">RC0805FR-0710RL</field>
+        <field name="Supplier 1 Link">https://www.digikey.com/en/products/detail/yageo/RC0805FR-0710RL/727534</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Mfr 1" value="YAGEO"/>
+      <property name="Mfr 1 PN" value="RC0805FR-0710RL"/>
+      <property name="Supplier 1 Link" value="https://www.digikey.com/en/products/detail/yageo/RC0805FR-0710RL/727534"/>
+      <property name="Sheetname" value="PowerMonitor"/>
+      <property name="Sheetfile" value="File: PowerMonitor.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/PowerMonitor/" tstamps="/1f46e0b0-8cf7-45e0-839e-129c08e67e35/"/>
+      <tstamps>c19631d0-1852-467b-a782-6fcbf4f60ec5</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>INA219AxD</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ina219.pdf</datasheet>
+      <fields>
+        <field name="Mfr 1">Texas Instruments</field>
+        <field name="Mfr 1 PN">INA219BIDR</field>
+        <field name="Supplier 1 Link">https://www.digikey.com/en/products/detail/texas-instruments/INA219BIDR/2426057</field>
+      </fields>
+      <libsource lib="Analog_ADC" part="INA219AxD" description="Zero-Drift, Bidirectional Current/Power Monitor (0-26V) With I2C Interface, SOIC-8"/>
+      <property name="Mfr 1" value="Texas Instruments"/>
+      <property name="Mfr 1 PN" value="INA219BIDR"/>
+      <property name="Supplier 1 Link" value="https://www.digikey.com/en/products/detail/texas-instruments/INA219BIDR/2426057"/>
+      <property name="Sheetname" value="PowerMonitor"/>
+      <property name="Sheetfile" value="File: PowerMonitor.kicad_sch"/>
+      <property name="ki_description" value="Zero-Drift, Bidirectional Current/Power Monitor (0-26V) With I2C Interface, SOIC-8"/>
+      <property name="ki_keywords" value="ADC I2C 16-Bit Oversampling Current Shunt"/>
+      <sheetpath names="/PowerMonitor/" tstamps="/1f46e0b0-8cf7-45e0-839e-129c08e67e35/"/>
+      <tstamps>4aca2538-caf6-445d-83c6-566769162211</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="74xGxx" part="74AUC1G02">
+      <description>Single NOR Gate, Low-Voltage CMOS</description>
+      <docs>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</docs>
+      <footprints>
+        <fp>SOT*</fp>
+        <fp>SG-*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74AUC1G02</field>
+        <field name="Datasheet">http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="74xGxx" part="74LVC1GU04DRL">
+      <description>Single Inverter Gate, SOT-553</description>
+      <docs>http://www.ti.com/lit/ds/symlink/sn74lvc1gu04.pdf</docs>
+      <footprints>
+        <fp>SOT*553*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LVC1GU04DRL</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-553</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/sn74lvc1gu04.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="no_connect"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Analog_ADC" part="INA219AxD">
+      <description>Zero-Drift, Bidirectional Current/Power Monitor (0-26V) With I2C Interface, SOIC-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/ina219.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">INA219AxD</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/ina219.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="input"/>
+        <pin num="2" name="A0" type="input"/>
+        <pin num="3" name="SDA" type="bidirectional"/>
+        <pin num="4" name="SCL" type="input"/>
+        <pin num="5" name="VS" type="power_in"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="IN-" type="input"/>
+        <pin num="8" name="IN+" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x05_Male">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x05">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x20_Odd_Even">
+      <description>Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x20_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+        <pin num="26" name="Pin_26" type="passive"/>
+        <pin num="27" name="Pin_27" type="passive"/>
+        <pin num="28" name="Pin_28" type="passive"/>
+        <pin num="29" name="Pin_29" type="passive"/>
+        <pin num="30" name="Pin_30" type="passive"/>
+        <pin num="31" name="Pin_31" type="passive"/>
+        <pin num="32" name="Pin_32" type="passive"/>
+        <pin num="33" name="Pin_33" type="passive"/>
+        <pin num="34" name="Pin_34" type="passive"/>
+        <pin num="35" name="Pin_35" type="passive"/>
+        <pin num="36" name="Pin_36" type="passive"/>
+        <pin num="37" name="Pin_37" type="passive"/>
+        <pin num="38" name="Pin_38" type="passive"/>
+        <pin num="39" name="Pin_39" type="passive"/>
+        <pin num="40" name="Pin_40" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Battery_Cell">
+      <description>Single-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Bridged">
+      <description>Solder Jumper, 2-pole, closed/bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Bridged*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Bridged</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Open">
+      <description>Solder Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Open</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push_DPDT">
+      <description>Momentary Switch, dual pole double throw</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push_DPDT</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+        <pin num="4" name="A" type="passive"/>
+        <pin num="5" name="B" type="passive"/>
+        <pin num="6" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TMP117AIDRVT" part="TMP117AIDRVT">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TMP117AIDRVT</field>
+        <field name="Footprint">TMP117AIDRVT:SON65P200X200X80-7N</field>
+        <field name="MF">Texas Instruments</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.8 mm</field>
+        <field name="Package">WSON-6 Texas Instruments</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/TMP117AIDRVT/Texas+Instruments/view-part/?ref=eda</field>
+        <field name="STANDARD">IPC 7351B</field>
+        <field name="PARTREV">B</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/TMP117AIDRVT/Texas+Instruments/view-part/?ref=snap</field>
+        <field name="MP">TMP117AIDRVT</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4422655&amp;manufacturer=Texas Instruments&amp;part_name=TMP117AIDRVT&amp;search_term=tmp117</field>
+        <field name="Description">
+0.1°C digital temperature sensor, 48-bit EEPROM, PT100/PT1000 RTD replacement
+</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">Texas Instruments</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SCL" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="ALERT" type="output"/>
+        <pin num="4" name="ADD0" type="input"/>
+        <pin num="5" name="V+" type="power_in"/>
+        <pin num="6" name="SDA" type="bidirectional"/>
+        <pin num="7" name="EXP" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Timer_RTC" part="DS3231M">
+      <description>Extremely Accurate I2C-Integrated RTC/TCXO/Crystal SOIC-16</description>
+      <docs>http://datasheets.maximintegrated.com/en/ds/DS3231.pdf</docs>
+      <footprints>
+        <fp>SOIC*7.5x10.3mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DS3231M</field>
+        <field name="Footprint">Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm</field>
+        <field name="Datasheet">http://datasheets.maximintegrated.com/en/ds/DS3231.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="32KHZ" type="open_collector"/>
+        <pin num="2" name="VCC" type="power_in"/>
+        <pin num="3" name="~{INT}/SQW" type="open_collector"/>
+        <pin num="4" name="~{RST}" type="bidirectional"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="GND" type="passive"/>
+        <pin num="7" name="GND" type="passive"/>
+        <pin num="8" name="GND" type="passive"/>
+        <pin num="9" name="GND" type="passive"/>
+        <pin num="10" name="GND" type="passive"/>
+        <pin num="11" name="GND" type="passive"/>
+        <pin num="12" name="GND" type="passive"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="VBAT" type="power_in"/>
+        <pin num="15" name="SDA" type="bidirectional"/>
+        <pin num="16" name="SCL" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="IRLML0030">
+      <description>5.3A Id, 30V Vds, 27mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23</description>
+      <docs>https://www.infineon.com/dgdl/irlml0030pbf.pdf?fileId=5546d462533600a401535664773825df</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">IRLML0030</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.infineon.com/dgdl/irlml0030pbf.pdf?fileId=5546d462533600a401535664773825df</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="74xGxx">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//74xGxx.kicad_sym</uri>
+    </library>
+    <library logical="Analog_ADC">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Analog_ADC.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Jumper.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Switch.kicad_sym</uri>
+    </library>
+    <library logical="TMP117AIDRVT">
+      <uri>/Users/brett/Downloads/TMP117AIDRVT/TMP117AIDRVT.kicad_sym</uri>
+    </library>
+    <library logical="Timer_RTC">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Timer_RTC.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Transistor_FET.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J10" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J8" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="2" name="/HOLD">
+      <node ref="J10" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="JP3" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="3" name="/PowerMonitor/VOUT">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="/PowerTimer/EN_OUT">
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="SW1" pin="5" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="5" name="/PowerTimer/INT">
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="U8" pin="3" pinfunction="~{INT}/SQW" pintype="open_collector"/>
+      <node ref="U9" pin="2" pintype="input"/>
+    </net>
+    <net code="6" name="/PowerTimer/LOGIC_OUT">
+      <node ref="SW1" pin="4" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="4" pintype="output"/>
+    </net>
+    <net code="7" name="/PowerTimer/NINT">
+      <node ref="JP4" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U9" pin="4" pintype="output"/>
+    </net>
+    <net code="8" name="/REG_EN">
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="9" name="/SCL">
+      <node ref="J10" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J6" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="SCL" pintype="input"/>
+      <node ref="U3" pin="4" pinfunction="SCL" pintype="input"/>
+      <node ref="U8" pin="16" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="10" name="/SDA">
+      <node ref="J10" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="U3" pin="3" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="U8" pin="15" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/TEST">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J10" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="12" name="BATT_IN">
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="GND">
+      <node ref="BT2" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J10" pin="39" pinfunction="Pin_39" pintype="passive"/>
+      <node ref="J10" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J8" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="7" pinfunction="EXP" pintype="power_in"/>
+      <node ref="U3" pin="1" pinfunction="A1" pintype="input"/>
+      <node ref="U3" pin="2" pinfunction="A0" pintype="input"/>
+      <node ref="U3" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="U8" pin="10" pinfunction="GND" pintype="passive"/>
+      <node ref="U8" pin="11" pinfunction="GND" pintype="passive"/>
+      <node ref="U8" pin="12" pinfunction="GND" pintype="passive"/>
+      <node ref="U8" pin="13" pinfunction="GND" pintype="power_in"/>
+      <node ref="U8" pin="5" pinfunction="GND" pintype="passive"/>
+      <node ref="U8" pin="6" pinfunction="GND" pintype="passive"/>
+      <node ref="U8" pin="7" pinfunction="GND" pintype="passive"/>
+      <node ref="U8" pin="8" pinfunction="GND" pintype="passive"/>
+      <node ref="U8" pin="9" pinfunction="GND" pintype="passive"/>
+      <node ref="U9" pin="3" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="14" name="Net-(BT2-+)">
+      <node ref="BT2" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U8" pin="14" pinfunction="VBAT" pintype="power_in"/>
+    </net>
+    <net code="15" name="Net-(D1-K)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(D3-K)">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(JP3-B)">
+      <node ref="JP3" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U1" pin="1" pintype="input"/>
+    </net>
+    <net code="18" name="Net-(JP4-B)">
+      <node ref="JP4" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U1" pin="2" pintype="input"/>
+    </net>
+    <net code="19" name="Net-(U2-ADD0)">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="ADD0" pintype="input"/>
+    </net>
+    <net code="20" name="Net-(U3-IN+)">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="IN+" pintype="input"/>
+    </net>
+    <net code="21" name="Net-(U3-IN-)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="IN-" pintype="input"/>
+    </net>
+    <net code="22" name="VBUS">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="V+" pintype="power_in"/>
+      <node ref="U3" pin="5" pinfunction="VS" pintype="power_in"/>
+      <node ref="U8" pin="2" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="23" name="VCC">
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="6" pinfunction="C" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U9" pin="5" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="24" name="unconnected-(C2-Pad2)">
+      <node ref="C2" pin="2" pintype="passive"/>
+    </net>
+    <net code="25" name="unconnected-(J5-Pin_2)">
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="26" name="unconnected-(J10-Pin_7)">
+      <node ref="J10" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="27" name="unconnected-(J10-Pin_8)">
+      <node ref="J10" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="28" name="unconnected-(J10-Pin_9)">
+      <node ref="J10" pin="9" pinfunction="Pin_9" pintype="passive"/>
+    </net>
+    <net code="29" name="unconnected-(J10-Pin_10)">
+      <node ref="J10" pin="10" pinfunction="Pin_10" pintype="passive"/>
+    </net>
+    <net code="30" name="unconnected-(J10-Pin_12)">
+      <node ref="J10" pin="12" pinfunction="Pin_12" pintype="passive"/>
+    </net>
+    <net code="31" name="unconnected-(J10-Pin_14)">
+      <node ref="J10" pin="14" pinfunction="Pin_14" pintype="passive"/>
+    </net>
+    <net code="32" name="unconnected-(J10-Pin_15)">
+      <node ref="J10" pin="15" pinfunction="Pin_15" pintype="passive"/>
+    </net>
+    <net code="33" name="unconnected-(J10-Pin_16)">
+      <node ref="J10" pin="16" pinfunction="Pin_16" pintype="passive"/>
+    </net>
+    <net code="34" name="unconnected-(J10-Pin_17)">
+      <node ref="J10" pin="17" pinfunction="Pin_17" pintype="passive"/>
+    </net>
+    <net code="35" name="unconnected-(J10-Pin_18)">
+      <node ref="J10" pin="18" pinfunction="Pin_18" pintype="passive"/>
+    </net>
+    <net code="36" name="unconnected-(J10-Pin_19)">
+      <node ref="J10" pin="19" pinfunction="Pin_19" pintype="passive"/>
+    </net>
+    <net code="37" name="unconnected-(J10-Pin_20)">
+      <node ref="J10" pin="20" pinfunction="Pin_20" pintype="passive"/>
+    </net>
+    <net code="38" name="unconnected-(J10-Pin_21)">
+      <node ref="J10" pin="21" pinfunction="Pin_21" pintype="passive"/>
+    </net>
+    <net code="39" name="unconnected-(J10-Pin_22)">
+      <node ref="J10" pin="22" pinfunction="Pin_22" pintype="passive"/>
+    </net>
+    <net code="40" name="unconnected-(J10-Pin_23)">
+      <node ref="J10" pin="23" pinfunction="Pin_23" pintype="passive"/>
+    </net>
+    <net code="41" name="unconnected-(J10-Pin_24)">
+      <node ref="J10" pin="24" pinfunction="Pin_24" pintype="passive"/>
+    </net>
+    <net code="42" name="unconnected-(J10-Pin_25)">
+      <node ref="J10" pin="25" pinfunction="Pin_25" pintype="passive"/>
+    </net>
+    <net code="43" name="unconnected-(J10-Pin_26)">
+      <node ref="J10" pin="26" pinfunction="Pin_26" pintype="passive"/>
+    </net>
+    <net code="44" name="unconnected-(J10-Pin_27)">
+      <node ref="J10" pin="27" pinfunction="Pin_27" pintype="passive"/>
+    </net>
+    <net code="45" name="unconnected-(J10-Pin_28)">
+      <node ref="J10" pin="28" pinfunction="Pin_28" pintype="passive"/>
+    </net>
+    <net code="46" name="unconnected-(J10-Pin_29)">
+      <node ref="J10" pin="29" pinfunction="Pin_29" pintype="passive"/>
+    </net>
+    <net code="47" name="unconnected-(J10-Pin_30)">
+      <node ref="J10" pin="30" pinfunction="Pin_30" pintype="passive"/>
+    </net>
+    <net code="48" name="unconnected-(J10-Pin_31)">
+      <node ref="J10" pin="31" pinfunction="Pin_31" pintype="passive"/>
+    </net>
+    <net code="49" name="unconnected-(J10-Pin_32)">
+      <node ref="J10" pin="32" pinfunction="Pin_32" pintype="passive"/>
+    </net>
+    <net code="50" name="unconnected-(J10-Pin_33)">
+      <node ref="J10" pin="33" pinfunction="Pin_33" pintype="passive"/>
+    </net>
+    <net code="51" name="unconnected-(J10-Pin_34)">
+      <node ref="J10" pin="34" pinfunction="Pin_34" pintype="passive"/>
+    </net>
+    <net code="52" name="unconnected-(J10-Pin_35)">
+      <node ref="J10" pin="35" pinfunction="Pin_35" pintype="passive"/>
+    </net>
+    <net code="53" name="unconnected-(J10-Pin_36)">
+      <node ref="J10" pin="36" pinfunction="Pin_36" pintype="passive"/>
+    </net>
+    <net code="54" name="unconnected-(J10-Pin_37)">
+      <node ref="J10" pin="37" pinfunction="Pin_37" pintype="passive"/>
+    </net>
+    <net code="55" name="unconnected-(J10-Pin_38)">
+      <node ref="J10" pin="38" pinfunction="Pin_38" pintype="passive"/>
+    </net>
+    <net code="56" name="unconnected-(J10-Pin_40)">
+      <node ref="J10" pin="40" pinfunction="Pin_40" pintype="passive"/>
+    </net>
+    <net code="57" name="unconnected-(U2-ALERT)">
+      <node ref="U2" pin="3" pinfunction="ALERT" pintype="output"/>
+    </net>
+    <net code="58" name="unconnected-(U8-32KHZ)">
+      <node ref="U8" pin="1" pinfunction="32KHZ" pintype="open_collector"/>
+    </net>
+    <net code="59" name="unconnected-(U8-~{RST})">
+      <node ref="U8" pin="4" pinfunction="~{RST}" pintype="bidirectional"/>
+    </net>
+    <net code="60" name="unconnected-(U9-NC)">
+      <node ref="U9" pin="1" pinfunction="NC" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>
