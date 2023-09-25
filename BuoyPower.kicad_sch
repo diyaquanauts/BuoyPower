@@ -2132,6 +2132,9 @@
     (path "/6d14d4f8-5eac-41fa-a6a0-78893e5397f9/bab975c2-be99-4885-bfcf-ce2338057ad6"
       (reference "#PWR0117") (unit 1) (value "GND") (footprint "")
     )
+    (path "/6d14d4f8-5eac-41fa-a6a0-78893e5397f9/4ea635fa-e234-4646-b25e-2bea55960dfe"
+      (reference "#PWR0118") (unit 1) (value "GND") (footprint "")
+    )
     (path "/1f46e0b0-8cf7-45e0-839e-129c08e67e35/f51e4d31-9573-41ba-83cc-77a97657d407"
       (reference "#PWR0119") (unit 1) (value "VBUS") (footprint "")
     )
@@ -2149,6 +2152,9 @@
     )
     (path "/7659413f-09ea-4000-98fd-acb16282f9b3"
       (reference "#PWR0124") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/6d14d4f8-5eac-41fa-a6a0-78893e5397f9/41825e57-b9f9-49ad-9411-851bed666ff4"
+      (reference "#PWR0125") (unit 1) (value "GND") (footprint "")
     )
     (path "/6d14d4f8-5eac-41fa-a6a0-78893e5397f9/b0ad948d-f220-4c82-a1d5-2d79e1f59dae"
       (reference "#PWR0126") (unit 1) (value "GND") (footprint "")
@@ -2192,6 +2198,9 @@
     (path "/6d14d4f8-5eac-41fa-a6a0-78893e5397f9/2a5942fd-2ace-43a7-b607-b428e0bfb1bf"
       (reference "D2") (unit 1) (value "BAT20J") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
     )
+    (path "/6d14d4f8-5eac-41fa-a6a0-78893e5397f9/49b04c54-f720-4cbd-a349-c52ce411c120"
+      (reference "D3") (unit 1) (value "LED") (footprint "LED_SMD:LED_0805_2012Metric")
+    )
     (path "/c7751b4e-3bd5-4aec-8ed5-82b267899a18"
       (reference "H2") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via")
     )
@@ -2234,11 +2243,11 @@
     (path "/6d14d4f8-5eac-41fa-a6a0-78893e5397f9/d1b51f8b-3173-4442-9590-0cee853da6d5"
       (reference "JP4") (unit 1) (value "SolderJumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm")
     )
-    (path "/6d14d4f8-5eac-41fa-a6a0-78893e5397f9/d91b5aa1-6956-4c5a-a9bd-69a1c6e0066e"
-      (reference "JP42") (unit 1) (value "SolderJumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm")
-    )
     (path "/6d14d4f8-5eac-41fa-a6a0-78893e5397f9/f0770bce-6d76-4139-a27d-558b640d7bd1"
       (reference "Q1") (unit 1) (value "IRLML2502") (footprint "Package_TO_SOT_SMD:SOT-23")
+    )
+    (path "/6d14d4f8-5eac-41fa-a6a0-78893e5397f9/bb9a05a9-3687-4ddb-9fcf-6fda5dee7c9f"
+      (reference "R1") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/1f46e0b0-8cf7-45e0-839e-129c08e67e35/dcb1a250-efb0-4731-a715-6ad510706b87"
       (reference "R10") (unit 1) (value "0.15") (footprint "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder")
@@ -2258,8 +2267,11 @@
     (path "/6d14d4f8-5eac-41fa-a6a0-78893e5397f9/ff69277b-2a20-466c-9a72-28346dff0308"
       (reference "R15") (unit 1) (value "470k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
-    (path "/6d14d4f8-5eac-41fa-a6a0-78893e5397f9/a630918c-56f6-4842-a97d-dd4b0969e8ea"
-      (reference "S1") (unit 1) (value "EG1213") (footprint "EG1213:SW_EG1213")
+    (path "/6d14d4f8-5eac-41fa-a6a0-78893e5397f9/cbe483ca-dec0-422d-a076-ed38435eba59"
+      (reference "SW1") (unit 1) (value "SW_Push_DPDT") (footprint "JS202011SCQN:SW_JS202011SCQN")
+    )
+    (path "/6d14d4f8-5eac-41fa-a6a0-78893e5397f9/2d32bb0e-a119-4d78-b045-6daa7dc86a20"
+      (reference "U1") (unit 1) (value "74AHC1G02") (footprint "Package_TO_SOT_SMD:SOT-23-5_HandSoldering")
     )
     (path "/1f46e0b0-8cf7-45e0-839e-129c08e67e35/4aca2538-caf6-445d-83c6-566769162211"
       (reference "U3") (unit 1) (value "INA219AxD") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
@@ -2269,9 +2281,6 @@
     )
     (path "/6d14d4f8-5eac-41fa-a6a0-78893e5397f9/c30c20f4-8920-41b1-b13c-eeef43d579c5"
       (reference "U9") (unit 1) (value "74AHC1GU04") (footprint "Package_TO_SOT_SMD:SOT-23-5_HandSoldering")
-    )
-    (path "/6d14d4f8-5eac-41fa-a6a0-78893e5397f9/896736ad-6e08-4ccf-8ab3-eb5a87da7867"
-      (reference "U11") (unit 1) (value "SN74AHC1G32") (footprint "Package_TO_SOT_SMD:SOT-23-5_HandSoldering")
     )
   )
 )

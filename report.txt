@@ -1,0 +1,11 @@
+Plotted to '/Users/brett/Documents/BuoyPower/gerbers/BuoyPower-F_Cu.gbr'.
+Plotted to '/Users/brett/Documents/BuoyPower/gerbers/BuoyPower-B_Cu.gbr'.
+Plotted to '/Users/brett/Documents/BuoyPower/gerbers/BuoyPower-F_Paste.gbr'.
+Plotted to '/Users/brett/Documents/BuoyPower/gerbers/BuoyPower-B_Paste.gbr'.
+Plotted to '/Users/brett/Documents/BuoyPower/gerbers/BuoyPower-F_Silkscreen.gbr'.
+Plotted to '/Users/brett/Documents/BuoyPower/gerbers/BuoyPower-B_Silkscreen.gbr'.
+Plotted to '/Users/brett/Documents/BuoyPower/gerbers/BuoyPower-F_Mask.gbr'.
+Plotted to '/Users/brett/Documents/BuoyPower/gerbers/BuoyPower-B_Mask.gbr'.
+Plotted to '/Users/brett/Documents/BuoyPower/gerbers/BuoyPower-Edge_Cuts.gbr'.
+Created Gerber job file '/Users/brett/Documents/BuoyPower/gerbers/BuoyPower-job.gbrjob'.
+Info: Done.
