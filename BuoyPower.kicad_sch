@@ -880,6 +880,9 @@
   (junction (at 106.68 100.33) (diameter 0) (color 0 0 0 0)
     (uuid 1997c8b1-8efe-412f-804b-582bf839aff7)
   )
+  (junction (at 74.93 69.85) (diameter 0) (color 0 0 0 0)
+    (uuid e7332dbc-ec9d-4dcb-8e21-55df1902644e)
+  )
   (junction (at 198.12 73.66) (diameter 0) (color 0 0 0 0)
     (uuid f770f2d3-7859-4bb2-ae30-734598200696)
   )
@@ -951,6 +954,10 @@
   (wire (pts (xy 101.6 118.11) (xy 101.6 123.19))
     (stroke (width 0) (type default))
     (uuid 3715b58e-376b-4e1d-b0ad-bcde455d358a)
+  )
+  (wire (pts (xy 72.39 64.77) (xy 77.47 64.77))
+    (stroke (width 0) (type default))
+    (uuid 3994604d-04ec-425e-8dcc-94df15c8077b)
   )
   (wire (pts (xy 106.68 97.79) (xy 106.68 100.33))
     (stroke (width 0) (type default))
@@ -1067,9 +1074,17 @@
     (stroke (width 0) (type default))
     (uuid 92fa9e41-9ee4-422c-b308-b1b46e19fbda)
   )
+  (wire (pts (xy 74.93 67.31) (xy 74.93 69.85))
+    (stroke (width 0) (type default))
+    (uuid 92fca31b-cb39-4a8b-9a36-7b67e24e0c1c)
+  )
   (wire (pts (xy 190.5 73.66) (xy 198.12 73.66))
     (stroke (width 0) (type default))
     (uuid a071258a-81e6-4d20-834a-5bdcc8ed5cf6)
+  )
+  (wire (pts (xy 72.39 67.31) (xy 74.93 67.31))
+    (stroke (width 0) (type default))
+    (uuid a0c28606-1260-4c48-84fd-bf1ea2e8f6ae)
   )
   (wire (pts (xy 72.39 62.23) (xy 77.47 62.23))
     (stroke (width 0) (type default))
@@ -1428,6 +1443,25 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 656579c5-8e53-441c-be7a-58c78a9baedd))
+  )
+
+  (symbol (lib_id "power:+5V") (at 77.47 64.77 270) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid 38e8c5a9-e7df-42b5-8509-d128235845b3)
+    (default_instance (reference "#PWR") (unit 1) (value "+5V") (footprint ""))
+    (property "Reference" "#PWR" (id 0) (at 73.66 64.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (id 1) (at 81.28 64.77 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (id 2) (at 77.47 64.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 77.47 64.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7a79031c-1149-490b-885f-7e14de3789ec))
   )
 
   (symbol (lib_id "power:GND") (at 74.93 110.49 0) (unit 1)
@@ -2132,13 +2166,16 @@
     (path "/6d14d4f8-5eac-41fa-a6a0-78893e5397f9/bab975c2-be99-4885-bfcf-ce2338057ad6"
       (reference "#PWR0117") (unit 1) (value "GND") (footprint "")
     )
+    (path "/76a9f0af-3f3f-49c0-897d-f2a243b75ef5"
+      (reference "#PWR0118") (unit 1) (value "+5V") (footprint "")
+    )
     (path "/1f46e0b0-8cf7-45e0-839e-129c08e67e35/f51e4d31-9573-41ba-83cc-77a97657d407"
       (reference "#PWR0119") (unit 1) (value "VBUS") (footprint "")
     )
     (path "/f81f13d3-aba1-4a34-8534-0b62464bd47f"
       (reference "#PWR0120") (unit 1) (value "VBUS") (footprint "")
     )
-    (path "/76a9f0af-3f3f-49c0-897d-f2a243b75ef5"
+    (path "/38e8c5a9-e7df-42b5-8509-d128235845b3"
       (reference "#PWR0121") (unit 1) (value "+5V") (footprint "")
     )
     (path "/340052d4-48c8-4495-82ce-050e42a7fe09"
@@ -2261,6 +2298,9 @@
     (path "/6d14d4f8-5eac-41fa-a6a0-78893e5397f9/a630918c-56f6-4842-a97d-dd4b0969e8ea"
       (reference "S1") (unit 1) (value "EG1213") (footprint "EG1213:SW_EG1213")
     )
+    (path "/6d14d4f8-5eac-41fa-a6a0-78893e5397f9/8741732e-2853-4419-826c-b4fc8720471e"
+      (reference "U1") (unit 1) (value "74AHC1G02") (footprint "Package_TO_SOT_SMD:SOT-23-5_HandSoldering")
+    )
     (path "/1f46e0b0-8cf7-45e0-839e-129c08e67e35/4aca2538-caf6-445d-83c6-566769162211"
       (reference "U3") (unit 1) (value "INA219AxD") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
@@ -2269,9 +2309,6 @@
     )
     (path "/6d14d4f8-5eac-41fa-a6a0-78893e5397f9/c30c20f4-8920-41b1-b13c-eeef43d579c5"
       (reference "U9") (unit 1) (value "74AHC1GU04") (footprint "Package_TO_SOT_SMD:SOT-23-5_HandSoldering")
-    )
-    (path "/6d14d4f8-5eac-41fa-a6a0-78893e5397f9/896736ad-6e08-4ccf-8ab3-eb5a87da7867"
-      (reference "U11") (unit 1) (value "SN74AHC1G32") (footprint "Package_TO_SOT_SMD:SOT-23-5_HandSoldering")
     )
   )
 )
